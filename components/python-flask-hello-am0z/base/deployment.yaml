@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-flask-hello-am0z
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:E1KJk-python-flask-hello-am0z
+      - image: quay.io/redhat-appstudio/user-workload@sha256:35ff360450aa0649cfd15c44ae5ea5db272ea0d3251ed69623c97debdf3e402a
         name: my-python
         ports:
         - containerPort: 8081
